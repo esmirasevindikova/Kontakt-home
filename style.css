@@ -1,0 +1,1294 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+body{
+  overflow-x:hidden;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.orta {
+  width: 82%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.nav-sol {
+  width: 35%;
+}
+.nav-sol ul {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-sol a {
+  color: #777;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.nav-sag {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+}
+.ayliq {
+  margin-left: 50px;
+}
+.ayliq p {
+  color: #2f8d31;
+  font-size: 17px;
+}
+.icon {
+  display: flex;
+}
+.icon i {
+  font-size: 20px;
+  margin-right: 27px;
+}
+.icon a {
+  color: #5e5e5e;
+  font-size: 14px;
+  margin-top: 3px;
+  text-decoration: none;
+}
+.olke img {
+  margin-right: 10px;
+}
+.nav-sol a:hover {
+  color: #f12a2a;
+}
+.icon i:hover {
+  color: #f12a2a;
+}
+.icon a:hover {
+  color: #f12a2a;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 27px;
+  
+}
+.ortalama {
+  width: 82%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.sol1 {
+  width: 28%;
+  display: flex;
+  justify-content: space-between;
+}
+.bars{
+  font-size:33px;
+}
+.kontakt-sekil {
+  width: 45%;
+  display: flex;
+  align-items: center;
+}
+.kontakt-sekil img {
+  width: 123px;
+  height: 35px;
+}
+.menyu {
+  display: flex;
+  align-items: center;
+}
+
+.menyu:hover {
+  color: #f12a2a;
+}
+.menyu i {
+  font-size: 27px;
+  margin-right: 13px;
+}
+.menyu p {
+  font-size: 17px;
+}
+.orta1 {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+.axtaris {
+  display: flex;
+  width: 100%;
+  border: 1px solid #dbdbdb;
+  border-radius: 33px;
+
+  justify-content: space-between;
+}
+
+.axtaris input {
+  border: 0;
+  margin: 10px 15px 10px 10px;
+}
+.axtaris .xett {
+  height: 45px;
+  width: 1px;
+  margin-left: 170px;
+  background-color: #dbdbdb;
+}
+.axtaris i {
+  font-size: 20px;
+  margin-right: 15px;
+  margin-top: 13px;
+}
+.sag1 {
+  display: flex;
+  align-items: center;
+}
+.daxil-ol {
+  font-size: 16px;
+  margin-right: 20px;
+}
+.daxil-ol i {
+  font-size: 21px;
+}
+.lupa{
+  font-size: 20px;
+}
+.ru{
+  font-size: 20px;
+  margin-left: 10px;
+}
+.sebet p{
+  font-size: 16px;
+}
+.sebet i {
+  font-size: 21px;
+}
+
+.daxil-ol i:hover {
+  color: #f12a2a;
+}
+.sebet i:hover {
+  color: #f12a2a;
+}
+
+.section1 {
+  width: 100%;
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+.ortalama1 {
+  width: 82%;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  font-size: 19px;
+}
+.ortalama1 b {
+  margin-right: 4px;
+}
+.ortalama1 a {
+  color: black;
+}
+.ortalama1 b:nth-child(2) {
+  color: red;
+}
+
+.section2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
+}
+.ortalama2 {
+  width: 82%;
+  display: flex;
+  justify-content: space-between;
+}
+.sol2 {
+  width: 20%;
+  border: 2px solid #ebebeb;
+  padding: 15px 15px;
+}
+.sol2 li {
+  margin-bottom: 10px;
+  position: relative;
+}
+.sol2 a {
+  text-decoration: none;
+  color: #949494;
+  font-size: 17px;
+  display: flex;
+}
+.sol2 img {
+  width: 22px;
+  height: 22px;
+  margin-right: 15px;
+}
+.sol2 .smartfon-siyahi {
+  position: absolute;
+  left: 203px;
+  top: -17px;
+  width: 887px;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  transition: 0.5s;
+  transform-origin: left;
+  transform: scaleX(0);
+  z-index: 100;
+  background-color: white;
+  border: 2px solid #dbdbdb;
+  padding: 20px;
+}
+.smartfonlar-sol {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.smartfonlar-sag {
+  width: 30%;
+}
+
+.smartfonlar-sag img {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 200px;
+}
+.sol2 li:hover .smartfon-siyahi {
+  visibility: visible;
+  transform: scaleX(1);
+  opacity: 1;
+}
+.sol2 li:hover {
+  background-color: #f3f3f3;
+}
+
+.sol2 .smartfon-siyahi a:hover {
+  color: red;
+  background-color: white;
+}
+
+.sol2 .smartfon-siyahi h3 {
+  background-color: white;
+}
+.sol2 .xett {
+  background-color: #ebebeb;
+  width: 70%;
+  height: 1px;
+  margin-left: 40px;
+  margin-top: 15px;
+}
+
+.sag2 {
+  width: 80%;
+  height: 530px;
+}
+.left {
+  width: 75%;
+}
+.yuxari {
+  display: flex;
+}
+.yuxari1 {
+  width: 100%;
+  height: 360px;
+  border: 2px solid #dbdbdb;
+  margin-left: 15px;
+  position: relative;
+}
+.yuxari1 img {
+  width: 100%;
+  height: 100%;
+
+}
+.yuxari .first-i i {
+  color: #dbdbdb;
+  font-size: 25px;
+  position: absolute;
+  top: 160px;
+  margin-left: 35px;
+}
+.yuxari .second-i i {
+  color: #dbdbdb;
+  font-size: 25px;
+  position: absolute;
+  top: 160px;
+  margin-left: 605px;
+}
+.asagi1 {
+  width: 100%;
+  height: 154px;
+  border: 2px solid #dbdbdb;
+  padding: 30px;
+  align-items: center;
+  margin: 15px 0 0 15px;
+}
+.asagi1 ul {
+  display: flex;
+}
+.asagi1 li {
+  flex-direction: column;
+  display: flex;
+  color: #303132;
+}
+.asagi1 img {
+  width: 40px;
+  height: 40px;
+  margin-left: 40px;
+}
+.right {
+  width: 25%;
+  margin-left: 30px;
+  border: 2px solid #dbdbdb;
+}
+.happy {
+  width: 100%;
+  font-size: 23px;
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+.time {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.time ul {
+  display: flex;
+  flex: row;
+}
+.time .xett {
+  width: 1px;
+  height: 20px;
+  background-color: black;
+  margin-top: 7px;
+}
+.time li {
+  margin-right: 15px;
+}
+.sekil-qiymet {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 15px 0;
+}
+.sekil-qiymet img {
+  width: 154px;
+  height: 150px;
+}
+.marka-ad {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 30px 0 10px 0;
+}
+.marka-ad a {
+  color: #282828;
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+.qiymet {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 15px 0;
+}
+.qiymet .sag3 {
+  font-size: 18px;
+  color: #ff003c;
+  margin-left: 15px;
+}
+.sag3 i {
+  font-size: 15px;
+}
+.sol3 {
+  width: 50%;
+}
+.sol3 button {
+  background-color: #9c3;
+  color: white;
+  font-size: 16px;
+  border: 0;
+  border-radius: 5px;
+  padding: 6px 8px;
+}
+
+.circle {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  margin-bottom: 5px;
+}
+.circle i {
+  font-size: 8px;
+  margin-right: 5px;
+}
+.circle i:nth-child(5) {
+  color: #ff003c;
+}
+.teklif {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #f0f1f2;
+  padding: 10px 0;
+}
+.teklif a {
+  text-decoration: none;
+  font-size: 17px;
+  color: #282828;
+  transition: 0.5s;
+}
+.asagi {
+  width: 870px;
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0 0 15px;
+}
+.asagi img {
+  width: 430px;
+  height: 128px;
+  border: 1px solid #dbdbdb;
+}
+
+.sol3 button:hover {
+  background-color: #668921;
+}
+.circle i:hover {
+  color: #ff003c;
+}
+.teklif:hover {
+  background-color: #dc3545;
+}
+.teklif a:hover {
+  color: white;
+}
+.section3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
+}
+.ortalama3 {
+  width: 82%;
+}
+.basliq {
+  width: 100%;
+  font-size: 30px;
+  margin: 20px 0;
+}
+.cesidler {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #dbdbdb;
+}
+.cesidler img {
+  width: 163px;
+  height: 163px;
+}
+.iphone-blue {
+  border-right: 1px solid #dbdbdb;
+  align-items: center;
+  transition: 0.3s;
+  position: relative;
+}
+.iphone-blue .hidden {
+  width: 267px;
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  top: 400px;
+  z-index: 20px;
+  background-color: white;
+  border: 1px solid #dbdbdb;
+}
+.iphone-blue :hover .hidden {
+  visibility: visible;
+  opacity: 1;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.15);
+}
+.yuxari2 {
+  width: 30%;
+  border: 1px solid #0099cc;
+  border-radius: 5px;
+  padding: 2px 6px;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: #0099cc;
+  font-size: 12px;
+}
+.orta2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 49px;
+}
+.orta2 img {
+  margin: 5px 0 30px 0;
+}
+.orta2 b {
+  color: #282828;
+  font-size: 18px;
+  margin-bottom: 80px;
+}
+.asagi2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  margin-bottom: 20px;
+}
+.asagi2 .sag4 {
+  font-size: 19px;
+  color: #ff003c;
+  margin-left: 15px;
+  position: relative;
+}
+.endirim {
+  font-size: 19px;
+  display: flex;
+  color: #282828;
+}
+.endirim i {
+  font-size: 15px;
+  margin-left: 5px;
+}
+.sag4 i {
+  font-size: 15px;
+}
+.sag4 .xett {
+  width: 75px;
+  height: 1px;
+  background-color: red;
+  position: absolute;
+  top: 10px;
+}
+.sol4 {
+  width: 50%;
+}
+.sol4 button {
+  background-color: #9c3;
+  color: white;
+  font-size: 16px;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+
+.iphone-red {
+  border-right: 1px solid #dbdbdb;
+  align-items: center;
+  transition: 0.3s;
+}
+.yuxari3 {
+  width: 30%;
+  border: 1px solid #0099cc;
+  border-radius: 5px;
+  padding: 2px 6px;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: #0099cc;
+  font-size: 12px;
+}
+.orta3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+}
+.orta3 img {
+  margin: 5px 0 30px 30px;
+}
+.orta3 b {
+  color: #282828;
+  font-size: 18px;
+  margin-bottom: 80px;
+}
+.asagi3 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  margin-bottom: 20px;
+}
+.asagi3 .sag5 {
+  font-size: 19px;
+  color: #ff003c;
+  margin-left: 15px;
+  position: relative;
+}
+.endirim1 {
+  font-size: 19px;
+  display: flex;
+  color: #282828;
+}
+.endirim1 i {
+  font-size: 15px;
+  margin-left: 5px;
+}
+.sag5 i {
+  font-size: 15px;
+}
+.sag5 .xett {
+  width: 75px;
+  height: 1px;
+  background-color: red;
+  position: absolute;
+  top: 10px;
+}
+.sol5 {
+  width: 50%;
+}
+.sol5 button {
+  background-color: #9c3;
+  color: white;
+  font-size: 16px;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+
+.iphone-green {
+  border-right: 1px solid #dbdbdb;
+  align-items: center;
+  transition: 0.3s;
+}
+.yuxari4 {
+  width: 30%;
+  border: 1px solid #0099cc;
+  border-radius: 5px;
+  padding: 2px 6px;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: #0099cc;
+  font-size: 12px;
+}
+.orta4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 49px;
+}
+.orta4 img {
+  margin: 5px 0 30px 0;
+}
+.orta4 b {
+  color: #282828;
+  font-size: 18px;
+  margin-bottom: 80px;
+}
+.asagi4 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  margin-bottom: 20px;
+}
+.asagi4 .sag6 {
+  font-size: 19px;
+  color: #ff003c;
+  margin-left: 15px;
+  position: relative;
+}
+.endirim2 {
+  font-size: 19px;
+  display: flex;
+  color: #282828;
+}
+.endirim2 i {
+  font-size: 15px;
+  margin-left: 5px;
+}
+.sag6 i {
+  font-size: 15px;
+}
+.sag6 .xett {
+  width: 75px;
+  height: 1px;
+  background-color: red;
+  position: absolute;
+  top: 10px;
+}
+.sol6 {
+  width: 50%;
+}
+.sol6 button {
+  background-color: #9c3;
+  color: white;
+  font-size: 16px;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+.iphone-green1 {
+  border-right: 1px solid #dbdbdb;
+  align-items: center;
+  transition: 0.3s;
+}
+.yuxari5 {
+  width: 30%;
+  border: 1px solid #0099cc;
+  border-radius: 5px;
+  padding: 2px 6px;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: #0099cc;
+  font-size: 12px;
+}
+.orta5 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 49px;
+}
+.orta5 img {
+  margin: 5px 0 30px 0;
+}
+.orta5 b {
+  color: #282828;
+  font-size: 18px;
+  margin-bottom: 80px;
+}
+.asagi5 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  margin-bottom: 20px;
+}
+.asagi5 .sag7 {
+  font-size: 19px;
+  color: #ff003c;
+  margin-left: 15px;
+  position: relative;
+}
+.endirim3 {
+  font-size: 19px;
+  display: flex;
+  color: #282828;
+}
+.endirim3 i {
+  font-size: 15px;
+  margin-left: 5px;
+}
+.sag7 i {
+  font-size: 15px;
+}
+.sag7 .xett {
+  width: 75px;
+  height: 1px;
+  background-color: red;
+  position: absolute;
+  top: 10px;
+}
+.sol7 {
+  width: 50%;
+}
+.sol7 button {
+  background-color: #9c3;
+  color: white;
+  font-size: 16px;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+.change {
+  width: 100%;
+  border-right: 2px solid#dbdbdb;
+  border-bottom: 2px solid#dbdbdb;
+  border-left: 2px solid#dbdbdb;
+
+  background-color: #f0f1f2;
+  padding: 20px 0 20px 980px;
+  transition: 0.5s;
+}
+.change i {
+  font-size: 8px;
+  margin-right: 2px;
+}
+.change:hover {
+  background-color: #dc3545;
+}
+.change i:nth-child(5) {
+  color: red;
+}
+.cesidler button:hover {
+  background-color: #7ea82b;
+}
+.iphone-blue:hover {
+  box-shadow: 10px -10px 15px rgba(0, 0, 0, 0.15);
+}
+.iphone-red:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+}
+.iphone-green:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+}
+.iphone-green1:hover {
+  box-shadow: -10px -10px 15px rgba(0, 0, 0, 0.15);
+}
+
+.section4 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
+  background-color: #253444;
+}
+.ortalama4 {
+  width: 82%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.kontakt-tv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  color: white;
+  margin: 20px 0 30px 0;
+}
+.kontakt-tv img {
+  margin-right: 15px;
+}
+.youtube {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.youtube iframe {
+  width: 270px;
+  height: 160px;
+  margin-right: 10px;
+  margin-bottom: 25px;
+}
+.youtube p {
+  transition: 0.4s;
+  margin-bottom: 25px;
+}
+.youtube p:hover {
+  color: #dc3545;
+}
+
+.section5 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
+}
+.ortalama5 {
+  width: 82%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.partnyor {
+  width: 100%;
+  font-size: 26px;
+  margin: 35px 0 15px 0;
+}
+.sirketler {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 160px;
+  border: 1px solid #dbdbdb;
+  padding: 0 50px;
+  position: relative;
+}
+.sirketler img {
+  width: 100px;
+  height: 40px;
+}
+.button {
+  position: absolute;
+}
+.button .first1-i i {
+  color: #e3e3e3;
+  font-size: 25px;
+  position: absolute;
+  top: 155px;
+  margin-left: 22px;
+}
+.button .second1-i i {
+  color: #e3e3e3;
+  font-size: 25px;
+  position: absolute;
+  top: 155px;
+  margin-left: 1065px;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 15px 0 0 0;
+  background-color: #253444;
+}
+.ortalama6 {
+  width: 82%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.haqqinda {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin: 35px 0;
+  font-size: 15px;
+}
+.yuxari6 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.haqqinda ul {
+  display: flex;
+  flex-direction: column;
+}
+.haqqinda li {
+  margin-bottom: 7px;
+  width: 80%;
+}
+.haqqinda a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+  font-size: 15px;
+}
+.haqqinda b {
+  color: white;
+  font-size: 18px;
+}
+.haqqinda a:hover {
+  color: #dd0033;
+}
+
+.elaqe {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin: 35px 0 0 90px;
+  color: white;
+}
+.basliq {
+  margin-bottom: 7px;
+}
+.basliq1 b {
+  color: white;
+  font-size: 18px;
+}
+.iconlar {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 7px 0 75px 0;
+  flex-wrap: wrap;
+}
+.phone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 40px;
+  transition: 0.4s;
+}
+.xerite {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: 0.4s;
+}
+.nomre {
+  display: flex;
+  flex-direction: row;
+  margin-top: 28px;
+  align-items: center;
+  transition: 0.4s;
+}
+.iconlar i {
+  margin-right: 15px;
+  font-size: 20px;
+}
+.sosial-sebeke {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.basliq2 {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+.iconlar2 {
+  font-size: 28px;
+}
+.iconlar2 i {
+  margin-right: 15px;
+}
+.asagi6 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+.phone:hover {
+  color: #dd0033;
+}
+.xerite:hover {
+  color: #dd0033;
+}
+.nomre:hover {
+  color: #dd0033;
+}
+
+.mobile-product-menu{
+  width:100%;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction:column;
+  margin-top: 10px;
+
+
+}
+.mobile-product-menu a{
+  text-decoration: none;
+}
+.first-row ul{
+  display: flex;
+}
+.first-row img{
+  width: 35px;
+  height: 35px;
+  margin-left: 19px;
+  margin-bottom: 5px;
+}
+.second-row img{
+  width: 35px;
+  height: 35px;
+  margin-left:  19px;
+  margin-bottom: 7px;
+
+}
+.mobile-product-menu span{
+  font-size: 16px;
+  color: #000;
+}
+.mobile-product-menu li{
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin: 3px;
+    border: 1px solid #d8d8d8;
+}
+
+
+.first-row   li a{
+  display: flex;
+  flex-direction: column;
+}
+.second-row ul{
+  display: flex;
+
+}
+.second-row  li a{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+@media (min-width: 350px) and (max-width: 768px){
+  nav{
+    display: none;
+  }
+  .ortalama{
+    width: 95%;
+  }
+  .menyu{
+    display: none;
+  }
+  .orta1{
+    display: none;
+  }
+  .daxil-ol{
+  display: none;
+  }
+  .sebet p{
+    display: none;
+  }
+  .sebet i{
+    margin-left: 10px;
+  }
+  .section1{
+    display: none;
+  }
+  .ortalama2{
+    width: 100%;
+  }
+  .kontakt-sekil img{
+    width: 100px;
+  }
+  .sol2{
+    display: none;
+  }
+  .right{
+    display: none;
+  }
+  .yuxari .first-i i {
+    display: none;
+  }
+  .yuxari .second-i i {
+    display: none
+  }
+  .asagi1{
+    display: none;
+  }
+  .asagi{
+    display: none;
+  }
+  .sag2{
+    width: 100%;
+    height: 350px;
+  }
+  .left{
+    width: 100%;
+  }
+  .yuxari1{
+    margin: 0;
+  }
+  .ortalama3{
+    width: 100%;
+    
+  }
+  .cesidler{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 100%;
+  }
+  .basliq{
+    background-color:#dfdfdf;
+    padding: 15px 20px;
+    margin:0;
+    margin-bottom: 13px !important;
+    
+
+  }
+  .basliq b{
+    font-size: 23px;
+    color: #000000;
+  }
+  .change{
+    display: none;
+  }
+  .ortalama4{
+    width: 95%;
+    
+  }
+  .kontakt-tv img{
+    width: 25px;
+    height: 25px;
+  }
+  .kontakt-tv p{
+    font-size: 19px;
+
+  }
+  .youtube{
+    overflow-x: scroll;
+  }
+  .ortalama5{
+    width: 100%;
+    display: flex
+
+  }
+  .partnyor{
+    width: 100%;
+    background-color: #dbdbdb;
+    padding: 15px 0 15px 205px;
+    margin: 0 0 15px 0;
+    
+  }
+  .sirketler{
+    overflow-x: scroll;
+  }
+  .ortalama6{
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+  .haqqinda{
+    display: flex;
+    flex-direction: column;
+    
+  
+  }
+}
+
+
+@media(min-width: 769px) and (max-width: 1024px){
+  .bars{
+    display: none;
+  }
+  .lupa{
+    display: none;
+  }
+  .ru{
+    display: none;
+  }
+  .mobile-product-menu{
+    display:none;
+  }
+}
+
+
+
+@media(min-width: 1024px) and (max-width: 1400px){
+  .bars{
+    display: none;
+  }
+  .lupa{
+    display: none;
+  }
+  .ru{
+    display: none;
+  }
+  .mobile-product-menu{
+    display:none !important;
+  }
+}
+
